@@ -1,0 +1,268 @@
+/*
+Theme name: HTML5
+Date: Sep. 2020
+Description: Project Work.
+Author: Group 7
+Author URL: http://www.oslomet.no
+ */
+body{
+    /*background-image: url("images/pink cloud.jpg");*/
+    background-color: #d1d8e0;
+    font-size: 90%;
+    font-family: Arial, "Lucida Sans Unicode";
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+a{text-decoration: none;}
+a:link, a:visited{color:#202441;}
+a:hover, a:active{color:darkred;}
+.body{
+    margin: 10px auto;
+    width: 100%;
+    clear: both;
+}
+.mainheader img {
+    width: 100%;
+    padding-bottom: 1%;
+}
+.mainheader nav{
+    background-color: black;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mainheader nav ul{
+    text-align:center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.mainheader nav ul li{
+    display: inline;
+
+}
+.mainheader a:link, .mainheader a:visited{
+    color: white;
+    padding: 10px 45px;
+    display: inline-block;
+    height: 20px;
+}
+.mainheader a:hover, .mainheader a:active{
+    color: white;
+    background-color: orangered;
+    text-shadow: none;
+}
+/*------------------------MAIN CONTENT------------------*/
+.mainContent{
+    width: 100%;
+    float: left;
+}
+.top-content{
+    background-color: #fff;
+    padding: 4%;
+    margin:  2% 0 2% 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    align-content: center;
+    align-items: center;
+}
+.post-info{
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    margin-top: -20px;
+
+}
+
+.textsyntac{
+    line-height: 2em;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Arial;
+    text-space: 2px;
+}
+/*-------------------------footer-----------------------*/
+footer{
+    float: left;
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+footer p {
+    text-align: center;
+    color: white;
+    word-spacing: 10px;
+    padding-top: 10px;
+}
+
+footer a:link, footer a:visited{
+    color: orangered;
+    display: inline-block;
+}
+/*.footerimg a:link, .mainheader a:visited{
+    color: rgba(209, 216, 224,1.0);
+    padding: 10px 45px;
+    display: inline-block;
+    height: 100px;
+}
+.footerimg a:hover, .mainheader a:active{
+    color: rgba(209, 216, 224,1.0);
+    background-color: rgba(209, 216, 224,1.0);
+    text-shadow: none;
+
+
+}*/
+/*_____________________HTML5__________________*/
+.post-image {
+    width: 100%;
+    height: 400px;
+}
+
+h2{
+    font-size: 55px;
+    font-family: Castellar;
+    text-align: center;
+}
+.H1{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+figure {
+    margen: 25px 0;
+    font-size: 80%;
+    color: #999;
+}
+/*_____________________CSS for Mobil______________*/
+@media screen and (max-width: 480px) {
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+    .imageheader{
+        height: 80px;
+    }
+
+    /*_________________MAin Header mobile____________*/
+    .mainheader nav{
+        height: 200px;
+    }
+    .mainheader nav ul li{
+        display: inline;
+
+    }
+    .mainheader ul{
+        width: 100%;
+        padding: 0;
+    }
+    .mainheader a:link, .mainheader a:visited{
+        display: block;
+    }
+    .mainContent{
+        width: 100%;
+    }
+    .thesidebar{
+        width: 96%;
+       margin-left: 0;
+        margin-right: -20px;
+
+    }
+
+}
+/*________________CSS for IPad__________*/
+@media screen and (max-width: 2000px){
+    .body {
+        width: 70%;
+        font-size: 90%;
+    }
+    .mainheader a:link, .mainheader a:visited{
+        padding: 10px 45px;
+    }
+}
+@media screen and (max-width: 1202px){
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+    .mainheader a:link, .mainheader a:visited{
+        padding: 10px 19px;
+    }
+}
+@media screen and (max-width:745px) {
+    .body {
+        width: 90%;
+        font-size: 96%;
+    }
+
+    .H1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .mainheader a:link, .mainheader a:visited {
+        padding: 10px 15px;
+        font-size: 85%;
+    }
+}
+    @media screen and (max-width: 579px) {
+        .body {
+            width: 90%;
+            font-size: 90%;
+        }
+        .H1{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 20px;
+        }
+        .mainheader a:link, .mainheader a:visited {
+            padding: 10px 5px;
+            font-size: 80%;
+        }
+        .post-image1 {
+            width: 30%;
+            height: 100px;
+        }
+        .post-image2 {
+            width: 30%;
+            height: 80px;
+        }
+        .post-image {
+            width: 100%;
+            height: 200px;
+        }
+        .imageheader{
+            height: 100px;
+        }
+    }
+
+
+@media screen and (max-width: 160px) {
+    h2{
+        font-size: 10px;
+    }
+    .post-image1 {
+        width: 50%;
+        height: 50px;
+    }
+    .post-image2 {
+        width: 50%;
+        height: 30px;
+    }
+
+}
+
+
+
